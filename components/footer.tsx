@@ -109,7 +109,9 @@ export default function Footer() {
 
         <div className="border-t border-border pt-8 text-center text-muted-foreground">
           <p>© {new Date().getFullYear()} KM OrgaTonics. All rights reserved.</p>
-          <p className="mt-2">Designed with ❤️ by Your Name/Agency</p>
+            <p className="mt-2">
+            Designed with ❤️ by <Link href="https://theelitess.com" className="hover:text-primary transition-colors">Elite</Link>
+            </p>
         </div>
       </div>
     </footer>
